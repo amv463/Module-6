@@ -7,10 +7,10 @@ messages to the user.
 
 - yaml/retry files
 
-	provisionAppPlaybook.yaml --> provisions and runs the application
-	provisionAppPlaybook.retry --> tries to provision the application again in case it fails
-	stopAppPlaybook.yaml --> stops the containers
-	removeAppPlaybook.yaml --> stops all containers and removes all images
+	- provisionAppPlaybook.yaml --> provisions and runs the application
+	- provisionAppPlaybook.retry --> tries to provision the application again in case it fails
+	- stopAppPlaybook.yaml --> stops the containers
+	- removeAppPlaybook.yaml --> stops all containers and removes all images
 
 ## Directories
 
