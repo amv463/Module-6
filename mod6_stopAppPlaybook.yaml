@@ -1,0 +1,19 @@
+---
+- hosts: localhost
+
+  tasks:
+
+    - name: Stop and remove webserver container
+      docker_container:
+        name: webserver
+        state: absent
+
+    - name: Stop and remove mongo container
+      docker_container:
+        name: database
+        state: absent
+
+    - name: Stop and remove webclient container
+      docker_container:
+        name: webclient
+        state: absent
